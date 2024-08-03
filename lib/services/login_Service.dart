@@ -2,6 +2,8 @@ import 'dart:convert';
 
 import 'package:http/http.dart' as http;
 
+//علشان تعمل لوجين لازم تستخدم داتا من الداتا الى موجودة عندهم فى السيرفر
+//From this EndPoint use any username & pass to login:https://fakestoreapi.com/users
 class AuthService {
   static Future<Map<String, dynamic>> login(
       String username, String password) async {

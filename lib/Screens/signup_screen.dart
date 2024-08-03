@@ -30,7 +30,8 @@ class _SignScreenState extends State<SignScreen> {
     super.dispose();
   }
 
-  //Save user on api but (مجرد شكليات لأنه مبيخزنش مستخدمين)
+  //Save user on api but (مجرد شكليات لأن الموقع الى انا مستخدمه مبيخزنش مستخدمين)
+  //فا هتضطر تستخدم فى حالة التسجيل يوزر وباسورد من الى موجودين فى الموقع
   //Use Class UserService to signUp
   Future<void> _signUp() async {
     if (_formKey.currentState!.validate()) {
